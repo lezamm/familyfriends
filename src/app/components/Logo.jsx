@@ -1,5 +1,9 @@
 const Logo = () => {
-  return <h1>FamilyFriends</h1>;
+  return (
+    <span className="text-base font-bold tracking-tight text-black">
+      FamilyFriends
+    </span>
+  );
 };
 
 export default Logo;
